@@ -1,4 +1,13 @@
-export const mockPokemonData = {
+export interface PokemonData {
+  name: string;
+  sprites: {
+    front_default: string;
+    front_shiny: string;
+  };
+  video: string;
+}
+
+export const mockPokemonData: PokemonData = {
   name: "Charizard",
   sprites: {
     front_default:
