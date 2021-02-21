@@ -1,11 +1,4 @@
-export interface PokemonData {
-  name: string;
-  sprites: {
-    front_default: string;
-    front_shiny: string;
-  };
-  video: string;
-}
+import { PokemonData } from "../types";
 
 export const mockPokemonData: PokemonData = {
   name: "Charizard",
